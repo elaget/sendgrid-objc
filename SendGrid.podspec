@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.platform         = :ios, '7.0'
   s.requires_arc     = true
   s.source_files     = "Classes/*"
-  s.dependency         "AFNetworking", "~> 2.0"
+  s.dependency         "AFNetworking", "2.7.1"
   s.dependency         "SMTPAPI"
 end
